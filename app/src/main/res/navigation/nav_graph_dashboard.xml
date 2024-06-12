@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navGraphDashboardParent"
+    app:startDestination="@+id/productListFragment">
+
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.praving.bareztechecom.poc.features.product.screens.ProductListFragment"
+        android:label="ProductListFragment">
+        <action
+            android:id="@+id/action_productListFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="com.praving.bareztechecom.poc.features.product.screens.ProductDetailsFragment"
+        android:label="ProductDetailsFragment">
+        <action
+            android:id="@+id/action_productDetailsFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.praving.bareztechecom.poc.features.cart.screens.CartFragment"
+        android:label="CartFragment" />
+</navigation>

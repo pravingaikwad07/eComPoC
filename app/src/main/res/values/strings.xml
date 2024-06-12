@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BarezTechECom</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="all">All</string>
+    <string name="error_loading_categories">Error loading categories</string>
+    <string name="error_loading_products">Error loading products</string>
+    <string name="sort_result">Sort Result</string>
+    <string name="title">Title</string>
+    <string name="qty">Qty</string>
+    <string name="rating">Rating</string>
+    <string name="rating_count">Rating Count</string>
+    <string name="goto_cart">Goto Cart</string>
+    <string name="total_items_in_cart">Total items in Cart</string>
+    <string name="date">Date</string>
+</resources>
